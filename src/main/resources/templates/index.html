@@ -6,11 +6,12 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="author" content="Suraj Tudu">
 		<meta name="description" content="This is a dashboard.">
+		<link rel="stylesheet" type="text/css" href="../static/MyStyle.css">
 	</head>
 	<body>
 		<header>
 			<div>
-				<h1>Dash Board</h1>
+				<h1 id="hd1">Dash Board</h1>
 			</div>
 		</header>
 		<div>
@@ -59,9 +60,9 @@
 
 		<p id="date"><time datetime="2024-07-11">July 11, 2024</time></p>
 
-		<label>Item </label><input type="text">
-		<label>Amount</label><input type="number">
-		<label>Total</label><span>$</span>
+		<label>Item </label><input id="tx" type="text">
+		<label>Amount</label><input id="am" type="number">
+		<label>Total</label><span id="tl">$</span>
 		
 		<button id="print">Print</button>
 		</div>
