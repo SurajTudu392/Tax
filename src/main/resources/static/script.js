@@ -4,3 +4,4 @@ function getDate()
     var x=document.getElementById("date");
     x.innerHTML=curr_date.toString();
 }
+window.onload=getDate;
