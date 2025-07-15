@@ -22,8 +22,6 @@ var Gst=parseInt(gst);
     Gst=Gst/100.0;
 var b=document.getElementById("am").value;
 var Price=parseInt(b);    
-    var Total=Gst+Price;
-    document.getElementById("t1").innerHTML=" "+Total;
-
-
+    var Total=(Price*Gst)+Price;
+    document.getElementById("tl").innerHTML="₹"+" "+Total;
 }

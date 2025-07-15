@@ -1,25 +1,85 @@
 body{
     background-color: white;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pnbmetlife.com%2Farticles%2Ftaxation%2Fevolution-of-taxation-system-in-india.html&psig=AOvVaw1p_skkEGAFp88yu07y09h6&ust=1752437027559000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCO4uqOuI4DFQAAAAAdAAAAABAE");
+    background-image: url("https://thumbs.dreamstime.com/b/multi-colour-indian-currency-notes-white-background-168484412.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
-    border: 10px solid black; 
     height: 100vh;
 }
-#hd1{ color:Red;
-margin: 0;
-height: 50px;
-border : 2px solid black; 
+#hd1{ color:Purple;
+    position:absolute
+    top: 10px;
+    left: 80px;
+
+font-family: "Arial", sans-serif;
+font-size: 90px;
+}
+#state, #tax{
+  display: inline-block;
+  width: 300px;
+  color: #0e0d0d;
+  font-size: 25px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 10px;
+}
+
+#state{
+    border: 2px solid black;
+    margin-right: 60px;
+}
+#tax{
+    border: 2px solid black;
+    margin-right: 60px;
+}
+label, #date{
+  display: inline-block;
+  color: #0e0d0d;
+  font-size: 25px;
+  text-align: center;
+  
+}
+
+label{
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#date{
+    
+    font-family:'Arial', sans-serif;
+}
+#tx{
+    width:200px;
+    height:5px:
+    text-align: center;
+
+font-size: 20px;
+}
+#am{
+    width:200px;
+    height:5px:
+    text-align: center;
+    font-size: 20px;
+
+
+}
+label{
+    color:black;
+    font-family: "Arial", sans-serif;
+font-size: 30px;
 text-align: center;
 }
-#state{
-   width: 150px;
-    top:100px;
-    left:100px;
-    color: #0e0d0d;
-    background-color: white;
-
-    
+#tl{
+    width:200px;
+    height:5px:
+    text-align: center;
+    font-size: 30px;
+}
+#print{
+    width:100px;
+    height:5px:
+    text-align: center;
+    font-size: 30px;
 }

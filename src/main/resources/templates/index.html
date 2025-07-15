@@ -13,11 +13,12 @@
 	<body>
 		<header>
 			<div>
-				<h1 id="hd1">Dash Board</h1>
+				<h1 id="hd1">Dashboard</h1>
 			</div>
 		</header>
 		<div>
 			<select name="state" id="state">
+				<option value="" disabled selected>State</option>
   				<option value="Andhra Pradesh">Andhra Pradesh</option>
 				<option value="Arunachal Pradesh">Arunachal Pradesh</option>
 				<option value="Assam">Assam</option>
@@ -48,26 +49,36 @@
 				<option value="West Bengal ">West Bengal </option>
 		</select>
 
-		<br>
+		
 
 		<select name="tax" id="tax">
-  				<option value="t1">5 %</option>
-				<option value="t2">10 %</option>
-				<option value="t3">15 %</option>
-				<option value="t4">18 %</option>
-				<option value="t5">27 %</option>
+			<option value="Tax" disabled selected>Tax</option>
+  				<option value="5">5 %</option>
+				<option value="10">10 %</option>
+				<option value="15">15 %</option>
+				<option value="18">18 %</option>
+				<option value="27">27 %</option>
 		</select>
-
-		<br>
-
-		<p id="date"><time datetime="2024-07-11">July 11, 2024</time></p>
-
-		<label>Item </label><input id="tx" type="text">
-		<label>Amount</label><input id="am" type="number">
-		<label>Total</label><span id="tl">$</span>
+		<label> Date : </label>
+		<p id="date"><time datetime="2024-07-11"></time></p></div>
 		
+		</div>
+		</div>
+		</div>
+		</body>
+		<br>
+		<label>Item&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input id="tx" type="text">
+	</br>
+		<br>
+		<label>Amount&nbsp;</label><input id="am" type="number"></html></br>
+	</br>
+	<br>
+		<button id="tl" onclick="Bill()">Total:</button>
+		<span id="tl"></span>
+	</br>
 		<button id="print">Print</button>
-		<button onclick="Bill()">Click Me</button>
+		
+
 		</div>
 	</body>
 </html>
